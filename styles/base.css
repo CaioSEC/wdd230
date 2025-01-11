@@ -5,37 +5,64 @@ body{
     color: aliceblue
 }
 
-header{
-    background-color: #728096;
-    padding: 2ch;
-    font-size: 200%;
+header {
+	background-color: #728096;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 20px;
 }
 
-img {
-    display: inline;
-    height: auto;
+img{
+    width: 100px;
+    box-shadow: 0px 5px 10px #374353;
 }
 
 span{
-    float: right;
+    font-size: 5ch;
+    margin-left: 2ch;
 }
 
-li{
-    display: inline-block;
-    font-size: 150%;
+main {
+	margin: 0 auto;
 }
 
-a{
-    color: #2D3541;
-    background-color: #EBBF66;
-    display: block;
-    padding: 2ch;
-    text-decoration: none;
+h1 {
+	font-size: 2rem;
 }
 
-li a:hover{
-    color: aliceblue;
-    background-color: #2D3541;
+nav {
+	background-color: #2D3541;
+	margin: 0 auto;
+	max-width: 800px;
+}
+nav ul {
+	list-style-type: none;
+}
+nav a {
+	display: block;
+	color:aliceblue;
+	text-align: center;
+	padding: 1rem;
+	text-decoration: none;
+}
+
+nav a:hover {
+	background-color: #EBBF66;
+}
+
+.card {
+	color:aliceblue;
+}
+
+
+@media (min-width: 640px) {
+	nav ul {
+		display: flex;
+	}
+	nav ul li {
+		flex: 1 1 100%;
+	}
 }
 
 .card{
