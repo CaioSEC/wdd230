@@ -1,0 +1,44 @@
+body{
+    margin:10ch;
+    background-color: #2D3541;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: aliceblue
+}
+
+header{
+    background-color: #728096;
+    padding: 2ch;
+    font-size: 200%;
+}
+
+img {
+    display: inline;
+    height: auto;
+}
+
+span{
+    float: right;
+}
+
+li{
+    display: inline-block;
+    font-size: 150%;
+}
+
+a{
+    color: #2D3541;
+    background-color: #EBBF66;
+    display: block;
+    padding: 2ch;
+    text-decoration: none;
+}
+
+li a:hover{
+    color: aliceblue;
+    background-color: #2D3541;
+}
+
+.card{
+    background-color: #728096;
+    padding: 2ch;
+}
