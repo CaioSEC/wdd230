@@ -65,7 +65,29 @@ nav a:hover {
 	}
 }
 
-.card{
+.card {
     background-color: #728096;
     padding: 2ch;
+}
+
+form {
+	display:block;
+	background-color: #728096;
+	padding: 2ch;
+	text-align: left;
+	height: 300px;
+}
+
+label {
+	display:block;
+	width: 200px;
+	margin: 10px;
+}
+
+div.container{
+	align-items: center;
+}
+
+footer {
+	margin-top: 100px;
 }

@@ -10,7 +10,6 @@ main {
 }
 
 img {
-    width: 100%;
     background: black;
     animation: fade 5s;
 }
