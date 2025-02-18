@@ -51,10 +51,6 @@ nav a:hover {
 	background-color: #EBBF66;
 }
 
-.card {
-	color:aliceblue;
-}
-
 
 @media (min-width: 640px) {
 	nav ul {
@@ -66,8 +62,25 @@ nav a:hover {
 }
 
 .card {
+	color:aliceblue;
     background-color: #728096;
     padding: 2ch;
+}
+
+.card h2 {
+	background-color: #2D3541;
+	width: 80%;
+	padding: 5px;
+}
+
+.card #description {
+	text-transform: capitalize;
+	margin-bottom: 2px;
+}
+
+.card #temperature {
+	font-size: 30px;
+	margin-top: 2px;
 }
 
 form {
